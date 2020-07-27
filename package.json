@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-fundamentals",
+  "version": "1.0.0",
+  "description": "My superior Nuxt.js project",
+  "author": "Erik Guerrero",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/components": "^0.3.3",
+    "@nuxtjs/apollo": "^4.0.1-rc.1",
+    "nuxt": "^2.0.0",
+    "vue-server-renderer": "2.6.6",
+    "vue-template-compiler": "2.6.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}
